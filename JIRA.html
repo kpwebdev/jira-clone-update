@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mar 21 Jira Clone</title>
+    <link rel="stylesheet" href="Jira.css">
+</head>
+
+<body>
+    <!-- Functions Used
+        .querySelector()
+        .addEventListener('',)
+        .createElement()
+        .className = " "
+        .append()
+        .setAttribute("contenteditable", "true")
+        .focus(); - Ex: Works as pointer in inputs
+        .target - to target a event called
+        .blur event - opp of Focus
+        dragstart $ dragend
+        dragover,dragenter,drop
+        eventDetails.dataTransfer.setData("text/plain", .id)        
+     -->
+
+
+    <h1>
+        <center>JIRA-Lite Clone</center>
+    </h1>
+
+    <div class="board">
+        <h2> Jira Board <button id="addcard"> Add Card </button></h2>
+
+        <div class="column" id="todo">
+            <h3>ToDo</h3>
+        </div>
+        <div class="column" id="progress">
+            <h3>Progress</h3>
+        </div>
+        <div class="column" id="done">
+            <h3>Done</h3>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <center>
+            <span>
+                A drag and drop To-Do list by Sai Prasad❤
+            </span>
+        </center>
+    </div>
+
+
+
+
+    <script src="Jira.js"></script>
+</body>
+
+</html>
